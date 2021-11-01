@@ -1,0 +1,38 @@
++font('PTSans-Narrow', 'PTSans-Narrow')
++font('PTSans-NarrowBold', 'PTSans-NarrowBold')
+
+=fontNB
+  font-family: 'PTSans-NarrowBold', sans-serif
+  font-style: normal
+  font-weight: normal
+=fontNR
+  font-family: 'PTSans-Narrow', sans-serif
+  font-style: normal
+  font-weight: normal
+  
+body
+  +fontNR
+  min-width: 320px
+  font-size: 18px
+  line-height: 27px
+  color: #f7f4f1
+  font-style: normal
+  background-color:#242424
+a
+  text-decoration: none
+
+img
+  max-width: 100%
+  height: auto
+
+.visually-hidden:not(:focus):not(:active)
+  position: absolute
+  width: 1px
+  height: 1px
+  margin: -1px
+  padding: 0
+  border: 0
+  white-space: nowrap
+  clip-path: inset(100%)
+  clip: rect(0 0 0 0)
+  overflow: hidden
